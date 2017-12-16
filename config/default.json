@@ -1,0 +1,7 @@
+{
+    "apiSpecPath": "/api/specification.yaml",
+    "controllerPath": "/controllers",
+    "server": {
+        "port": 10001
+    }
+}

@@ -1,0 +1,19 @@
+basePath: /api
+path:
+  /info:
+    get:
+      controller: getInfo
+      parameters:
+        - name: name
+          in: query
+    post:
+      controller: postInfo
+      parameters:
+        - name: body
+          in: body
+  /info/:name:
+    get:
+      controller: getInfoOfName
+      parameters:
+        - name: name
+          in: path
