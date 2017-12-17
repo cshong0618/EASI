@@ -22,7 +22,7 @@ var controllers = {};
 
 _.forEach(files, (fileName) => {
     controllers[fileName.replace(".js", "")] = require(controllerPath + "/" + fileName);
-})
+});
 
 // Generate topology here
 var paths = spec.path;

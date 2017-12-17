@@ -11,6 +11,9 @@ path:
       parameters:
         - name: body
           in: body
+  /info/useragent:
+    get:
+      controller: getUserAgent
   /info/:name:
     get:
       controller: getInfoOfName
